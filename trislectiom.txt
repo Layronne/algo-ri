@@ -1,0 +1,18 @@
+début
+
+
+il existe une valeur i = 0
+permut = true
+nbr de passage = 0
+toutes les cartes ont une valeurs (As prend la valeur 1, 2 prend la valeur 2 ... reine prend la valeur 12 et roi prend la valeur 13)
+
+tant que permut = false
+jusqu'a que i <= taille du tableau
+si la carte qui est sur i > a la carte sur i+1 prend la carte de i+1 et met la a la place de la carte de i et la carte de i vas sur la place de la carte de i+1
+nbr de passage = nbr de passage + 1
+
+si lors du passage aucun si a ete fait alors permut = vrai
+
+
+
+fin
