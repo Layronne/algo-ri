@@ -1,18 +1,35 @@
+trie a bulle
+
+
 début
 
 
 il existe une valeur i = 0
 permut = true
-nbr de passage = 0
+
 toutes les cartes ont une valeurs (As prend la valeur 1, 2 prend la valeur 2 ... reine prend la valeur 12 et roi prend la valeur 13)
 
-tant que permut = false
+tant que permut = true
+permut = false
 jusqu'a que i <= taille du tableau
 si la carte qui est sur i > a la carte sur i+1 prend la carte de i+1 et met la a la place de la carte de i et la carte de i vas sur la place de la carte de i+1
-nbr de passage = nbr de passage + 1
-
-si lors du passage aucun si a ete fait alors permut = vrai
-
-
+permut = true
 
 fin
+
+
+trie a insertion
+
+début
+
+il existe une valeur i = 0
+permut = true
+
+
+toutes les cartes ont une valeurs (As prend la valeur 1, 2 prend la valeur 2 ... reine prend la valeur 12 et roi prend la valeur 13)
+
+tant que permut = true
+permut = false
+jusqu'a ce que i <= taille du tableau
+si la carte sur i > a la carte sur i+1 alors prendre la carte i + 1 et la mettre a i-n+1 n etant la carte qui a une plus petite valeur que la carte sur i+1
+permut = true
